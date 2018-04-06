@@ -1,0 +1,47 @@
+﻿  Source.cpp
+c:\users\game110am\source\repos\4-6-2018\4-6-2018\source.cpp(28): error C2440: 'initializing': cannot convert from 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>' to 'int'
+          with
+          [
+              _Ty=Student
+          ]
+  c:\users\game110am\source\repos\4-6-2018\4-6-2018\source.cpp(28): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+c:\users\game110am\source\repos\4-6-2018\4-6-2018\source.cpp(28): error C2784: 'bool std::operator <=(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)': could not deduce template argument for 'const std::vector<_Ty,_Alloc> &' from 'int'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\vector(2099): note: see declaration of 'std::operator <='
+c:\users\game110am\source\repos\4-6-2018\4-6-2018\source.cpp(28): error C2784: 'bool std::operator <=(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )': could not deduce template argument for 'const std::basic_string<_Elem,_Traits,_Alloc> &' from 'int'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xstring(4042): note: see declaration of 'std::operator <='
+c:\users\game110am\source\repos\4-6-2018\4-6-2018\source.cpp(28): error C2784: 'bool std::operator <=(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'const _Elem *const ' from 'int'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xstring(4032): note: see declaration of 'std::operator <='
+c:\users\game110am\source\repos\4-6-2018\4-6-2018\source.cpp(28): error C2784: 'bool std::operator <=(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept': could not deduce template argument for 'const std::basic_string<_Elem,_Traits,_Alloc> &' from 'int'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xstring(4022): note: see declaration of 'std::operator <='
+c:\users\game110am\source\repos\4-6-2018\4-6-2018\source.cpp(28): error C2784: 'bool std::operator <=(const std::move_iterator<_RanIt> &,const std::move_iterator<_RanIt2> &)': could not deduce template argument for 'const std::move_iterator<_RanIt> &' from 'int'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xutility(2188): note: see declaration of 'std::operator <='
+c:\users\game110am\source\repos\4-6-2018\4-6-2018\source.cpp(28): error C2784: 'bool std::operator <=(const std::reverse_iterator<_RanIt> &,const std::reverse_iterator<_RanIt2> &)': could not deduce template argument for 'const std::reverse_iterator<_RanIt> &' from 'int'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\xutility(1317): note: see declaration of 'std::operator <='
+c:\users\game110am\source\repos\4-6-2018\4-6-2018\source.cpp(28): error C2784: 'bool std::operator <=(const std::pair<_Ty1,_Ty2> &,const std::pair<_Ty1,_Ty2> &)': could not deduce template argument for 'const std::pair<_Ty1,_Ty2> &' from 'int'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\utility(319): note: see declaration of 'std::operator <='
+c:\users\game110am\source\repos\4-6-2018\4-6-2018\source.cpp(28): error C2677: binary '<=': no global operator found which takes type 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>' (or there is no acceptable conversion)
+          with
+          [
+              _Ty=Student
+          ]
+c:\users\game110am\source\repos\4-6-2018\4-6-2018\source.cpp(29): error C2819: type 'std::vector<Student,std::allocator<_Ty>>' does not have an overloaded member 'operator ->'
+          with
+          [
+              _Ty=Student
+          ]
+  c:\users\game110am\source\repos\4-6-2018\4-6-2018\source.cpp(25): note: see declaration of 'std::vector<Student,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Student
+          ]
+  c:\users\game110am\source\repos\4-6-2018\4-6-2018\source.cpp(29): note: did you intend to use '.' instead?
+c:\users\game110am\source\repos\4-6-2018\4-6-2018\source.cpp(29): error C2039: 'printinfo': is not a member of 'std::vector<Student,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Student
+          ]
+  c:\users\game110am\source\repos\4-6-2018\4-6-2018\source.cpp(25): note: see declaration of 'std::vector<Student,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Student
+          ]
